@@ -33,9 +33,9 @@ function Memberships(){
             <div className="max-w-[1240px] grid md:grid-cols-3 mx-auto gap-8">
                 {memberships.map((membersip, index) => (
                         <div key={index} className={
-                            `w-full flex flex-col text-center justify-center mx-auto shadow-xl rounded-lg hover:scale-105 duration-300 my-4 md:my-0 ${index === 1 ? "my-10 md:my-[-12px]" : ""}`
+                            `w-full flex flex-col text-center justify-center mx-auto shadow-xl rounded-lg hover:scale-105 duration-300 my-6 md:my-0 ${index === 1 ? "my-10 md:my-[-12px] bg-gray-100" : ""}`
                         }>
-                    <img className='w-20 mx-auto mt-[-3rem] bg-white bg-transparent' src={membersip.image} alt='/'/>
+                    <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={membersip.image} alt='/'/>
                     <h2 className='text-2xl font-bold py-8'>{membersip.userType}</h2>
                     <p className='text-4xl font-bold'>${membersip.price}</p>
                     <div>

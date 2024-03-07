@@ -9,7 +9,7 @@ function Navbar() {
     }
 
     return (
-        <div className='fixed top-0 w-full z-10 flex items-center h-24 text-white'>
+        <div className='relative w-full z-10 flex items-center h-24 text-white'>
             <div className='flex justify-between items-center w-full max-w-[1240px] mx-auto px-4'>
                 <h1 className='text-3xl font-bold text-[#00df9a]'>React.</h1>
                 <ul className='hidden md:flex space-x-5'>
